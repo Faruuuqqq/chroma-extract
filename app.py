@@ -334,8 +334,8 @@ if uploaded:
     <p style="color: #475569; font-size: 0.9rem; margin-bottom: 0.2rem;">• Resize image</p>
     <p style="color: #475569; font-size: 0.9rem; margin-bottom: 0.2rem;">• Extract RGB</p>
     <p style="color: #475569; font-size: 0.9rem; margin-bottom: 0.8rem;">• <b>{len(pixels):,}</b> pixels</p>
-    <div style="background: #f1f5f9; padding: 0.6rem; border-radius: 8px;">
-        <code style="color: #475569; font-size: 0.75rem;">Sample: {pixels[0].tolist()}</code>
+    <div style="background: #f8fafc; padding: 0.8rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+        <div style="color: #475569; font-size: 0.8rem; font-family: 'JetBrains Mono', monospace;">Sample: {pixels[0].tolist()}</div>
     </div>
 </div>
             """, unsafe_allow_html=True)
@@ -347,8 +347,8 @@ if uploaded:
     <p style="color: #475569; font-size: 0.9rem; margin-bottom: 0.2rem;">• Init {k_colors} centers</p>
     <p style="color: #475569; font-size: 0.9rem; margin-bottom: 0.2rem;">• Assign pixels</p>
     <p style="color: #475569; font-size: 0.9rem; margin-bottom: 0.8rem;">• Update centers</p>
-    <div style="background: #f1f5f9; padding: 0.6rem; border-radius: 8px;">
-        <code style="color: #475569; font-size: 0.75rem;">Iter: {kmeans.n_iter_} | In: {kmeans.inertia_:.0f}</code>
+    <div style="background: #f8fafc; padding: 0.8rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+        <div style="color: #475569; font-size: 0.8rem; font-family: 'JetBrains Mono', monospace;">Iter: {kmeans.n_iter_} | In: {kmeans.inertia_:.0f}</div>
     </div>
 </div>
             """, unsafe_allow_html=True)
@@ -362,8 +362,8 @@ if uploaded:
     <p style="color: #475569; font-size: 0.9rem; margin-bottom: 0.2rem;">• Get centroids</p>
     <p style="color: #475569; font-size: 0.9rem; margin-bottom: 0.2rem;">• Sort colors</p>
     <p style="color: #475569; font-size: 0.9rem; margin-bottom: 0.8rem;">• Done!</p>
-    <div style="background: #f1f5f9; padding: 0.6rem; border-radius: 8px;">
-        <code style="color: #475569; font-size: 0.75rem; line-height: 1.4;">{centers_list}</code>
+    <div style="background: #f8fafc; padding: 0.8rem; border-radius: 8px; border: 1px solid #e2e8f0;">
+        <div style="color: #475569; font-size: 0.8rem; font-family: 'JetBrains Mono', monospace; line-height: 1.4;">{centers_list}</div>
     </div>
 </div>
             """, unsafe_allow_html=True)
